@@ -1,6 +1,10 @@
-Le funzionalità di Run e Debug all'interno di PHPStorm vengono eseguite prendendo in considerazione le impostazioni 
-di PHPStorm ed applicando tali impostazioni alla particolare classe o funzione. Da questo processo ne deriva
-una configurazione di Run/Debug per tale classe o funzione che si può trovare nella dropdown delle configurazioni di PHPStorm.
+# Configuring PHPStorm, PHPUnit and PHPUnit Bridge in a Symfony project
+
+Quando viene eseguita la funzione di Debug dell'IDE, PHPStorm utilizza le impostazioni del progetto, definite nella sezione ***Test Frameworks***, ed applica tali impostazioni all'applicazione o al singolo script che si vuole eseguire, creando così una configurazione di Run/Debug apposita per lo script in questione. 
+
+Seppur le impostazioni del framework di test si applicano all'intero progetto, è comunque possibile modificare e personalizzare la configurazione di esecuzione e di debug di ogni singolo script accedendo alla sezione ***Run/Debug configurations*** facilmente accessibile dal menù a tendina situato nella barra in alto della barra degli strumenti.
+
+In questo modo è possibile creare profili di configurazioni diversi per ogni tipo di script ed esigenza.
 
 
 phpunit-bridge è un componente symfony che possiede funzionalità aggiuntive e modificate di PHPUnit.
